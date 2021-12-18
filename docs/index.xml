@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIPS</title>
+    <link>http://example.org/</link>
+    <description>Recent content on MIPS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jul 2021 13:45:17 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Wed, 21 Jul 2021 13:45:17 -0700</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://example.org/posts/test/</link>
+      <pubDate>Tue, 20 Jul 2021 15:38:21 -0700</pubDate>
+      
+      <guid>http://example.org/posts/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

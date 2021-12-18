@@ -1,0 +1,85 @@
+# Just playing around; _index.md decides front matter.
+baseURL = "http://mips.github.io"
+languageCode = "en-us"
+copyright = "© copyright notice"
+theme = "dimension"
+googleAnalytics = ""
+
+[menu]
+[[menu.main]]
+identifier = 'about'
+name = 'about hugo'
+pre = "<i class='fa fa-heart'></i>"
+url = '/about/'
+weight = -110
+[[menu.main]]
+name = 'getting started'
+post = "<span class='alert'>New!</span>"
+pre = "<i class='fa fa-road'></i>"
+url = '/getting-started/'
+weight = -100
+
+
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/mivinci"
+  svg = "images/mips.svg"
+  [[params.social]]
+  name = "linkedin"
+  url = "https://linkedin/in/leonard-mivinci-63895317a"
+  svg = ""
+  [[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/Leonard14733745"
+  svg = ""
+  [[params.social]]
+  name = "rss"
+  url = "/index.xml"
+  svg = ""
+
+[author]
+name = "Kuanchieh Peng"
+
+[build]
+  publish = "public"
+  command = "hugo --minify --gc"
+
+[build.environment]
+  HUGO_VERSION = "0.85.0"
+  HUGO_BASEURL = "/"
+
+[[headers]]
+  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  Referrer-Policy = "same-origin"
+  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[params]
+  background = "black"
+  linkColor = "seagreen"
+
+  author = "Kuanchieh Peng"
+  avatar = "images/mips.svg"
+  motto = "Pre-workout recommendation engine"
+  email = "kuanchieh.peng99@gmail.com"
+
+  siteStartYear = 2021
+  showSummaryCoverInPost = true
+
+  darkNav = true
+  dark404 = true
+  darkLinkColor = "darkseagreen"
+
+
+
+# for iframes
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+      unsafe = true
